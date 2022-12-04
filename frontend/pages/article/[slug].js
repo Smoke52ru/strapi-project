@@ -28,7 +28,7 @@ const Article = ({ article, categories }) => {
       >
         <h1>{article.attributes.title}</h1>
       </div>
-      <div className="uk-section">
+      <div className="uk-section" id="article-content">
         <div className="uk-container uk-container-small">
           <ReactMarkdown
             source={article.attributes.content}
